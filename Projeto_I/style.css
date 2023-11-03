@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-size: 100%;
+    background: linear-gradient(117deg, rgba(223, 60, 95, 0.40) 1.17%, rgba(34, 65, 147, 0.40) 99.06%);
+    
+}
+.cabecalho {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+
+}
+.cabecalho-imagem {
+    height: 72px;
+    
+}
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+.cabecalho-menu-item {
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.conteudo {
+    border-top: 0.4px solid #000;
+    margin-bottom: 48px;
+}
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.conteudo-principal-imagem-logo{
+    width: 400px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background: url(<path-to-image>), rgba(242, 156, 200, 0.31);
+}
+.conteudo-principal-escrito-texto {
+    color: #000;
+    font-family: Content;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 515px;
+    height: 410px;
+    flex-shrink: 0;
+}
+.conteudo-principal-escrito-botao{
+    width: 244px;
+    height: 49px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Content;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+    border-radius: 20px;
+    background: rgba(223, 60, 95, 0.86);
+}
+.conteudo-principal-imagem {
+    width: 383px;
+    height: 491px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), rgba(111, 155, 209, 0.30) / cover no-repeat;
+}
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  
+    height: 60px;
+    flex-shrink: 0;
+    background: #000;
+}
+.rodape-imagem{
+    align-items: flex-start;
+    flex-shrink: 0;
+    gap: 10px;
+}
+.rodape-escrito{
+    /*display: flex;
+    justify-content: center;*/
+    color: #FFF;
+    font-family: Content;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    align-items: center;
+    justify-content: space-around;
+}
+.rodape-imagem-logo{
+    align-items: end;
+}
